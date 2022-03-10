@@ -4,7 +4,7 @@
   background: linear-gradient(90deg, #d65cf4 0%, #8b4bf8 100%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 678px) {
   .wrapper {
     padding: 1rem;
   }
@@ -67,7 +67,7 @@
   gap: 2rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 678px) {
   .body {
     flex-direction: column;
   }
