@@ -8,10 +8,10 @@ const Header = () => {
     <div className={styles.wrapper}>
       <img src="/image/logo.png" className={styles.logo} />
       <div className={styles.links}>
-        <a href="" className={styles.link} target="_blank" rel="noreferrer">
+        <a href="https://docs.lumedao.xyz/" className={styles.link} target="_blank" rel="noreferrer">
           Documentation
         </a>
-        <a href="" className={styles.link} target="_blank" rel="noreferrer">
+        <a href="https://lumestudios.com" className={styles.link} target="_blank" rel="noreferrer">
           Lume Studios
         </a>
         <a href="" className={styles.link} target="_blank" rel="noreferrer">
@@ -30,10 +30,10 @@ const Header = () => {
 
       {show && (
         <div className={styles.mobileLinks}>
-          <a href="" className={styles.link} target="_blank" rel="noreferrer">
+          <a href="https://docs.lumedao.xyz" className={styles.link} target="_blank" rel="noreferrer">
             Documentation
           </a>
-          <a href="" className={styles.link} target="_blank" rel="noreferrer">
+          <a href="https://lumestudios.com" className={styles.link} target="_blank" rel="noreferrer">
             Lume Studios
           </a>
           <a href="" className={styles.link} target="_blank" rel="noreferrer">
