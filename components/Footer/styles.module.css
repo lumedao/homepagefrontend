@@ -1,0 +1,149 @@
+.wrapper {
+  padding: 5rem 4vw;
+  margin-top: -5px;
+  background: linear-gradient(90deg, #d65cf4 0%, #8b4bf8 100%);
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .feature {
+    width: 100% !important;
+  }
+
+  .feature span {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .address {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 30px !important;
+    margin-bottom: 1rem !important;
+    line-height: 40px !important;
+  }
+
+  .centerImage {
+    height: calc(100% - 2rem) !important;
+  }
+}
+
+.innerWrapper {
+  margin: auto;
+}
+
+.title {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 4vw;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.body {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .body {
+    flex-direction: column;
+  }
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature {
+  background: white;
+  border-left: 10px solid black;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.contact {
+  width: fit-content;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature span {
+  background: linear-gradient(90deg, #d65cf4 0%, #8b4bf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Futura;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.centerImage {
+  height: 15vw;
+  object-fit: cover;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.logoWrapper {
+  width: 100%;
+  padding: 1vw;
+  background: white;
+}
+
+.logoWrapper .logo {
+  width: 100%;
+}
+
+.address {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  /* or 127% */
+
+  color: #ffffff;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links a img {
+  width: 30px;
+  height: 30px;
+}

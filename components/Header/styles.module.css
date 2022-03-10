@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0a0a1a;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .links {
+    display: none;
+  }
+
+  .mobileBtn {
+    display: block !important;
+  }
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  width: 166px;
+}
+
+.mobileBtn {
+  display: none;
+  border: none;
+  background: none;
+}
+
+.mobileBtn div {
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  margin: 7px 0;
+}
+
+.mobileLinks {
+  position: absolute;
+  background: #0a0a1a;
+  z-index: 10;
+  top: 71px;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobileLinks .link {
+  padding: 5px 10px;
+}
