@@ -46,28 +46,29 @@ const Footer = () => {
               <div className={`${styles.feature} ${styles.contact}`}>
                 <span>CONTACT US</span>
               </div>
+              <span className={styles.span1}></span>
             </a>
             <div className={styles.links}>
               <a href="https://twitter.com/lume_studios" target="_blank" rel="noreferrer">
-                <img src="/image/twitter.png" />
+                <img className={styles.twitter} src="/image/twitter.png" />
               </a>
               <a href="https://www.instagram.com/lumestudios/" target="_blank" rel="noreferrer">
-                <img src="/image/instagram.png" />
+                <img className={styles.instagram} src="/image/instagram.png" />
               </a>
               <a href="https://www.youtube.com/channel/UC9gFfHKDt-5w8sU2daG0qeA" target="_blank" rel="noreferrer">
-                <img src="/image/youtube.png" />
+                <img className={styles.youtube} src="/image/youtube.png" />
               </a>
               <a href="https://discord.com/invite/5yKayXjyHe" target="_blank" rel="noreferrer">
-                <img src="/image/discord.png" />
+                <img className={styles.discord} src="/image/discord.png" />
               </a>
               <a href="http://lumedao.medium.com" target="_blank" rel="noreferrer">
-                <img src="/image/medium.png" />
+                <img className={styles.medium} src="/image/medium.png" />
               </a>
               <a href="https://mirror.xyz/lumedao.eth" target="_blank" rel="noreferrer">
-                <img src="/image/mirror.png" />
+                <img className={styles.mirror} src="/image/mirror.png" />
               </a>
               <a href="https://github.com/lumedao" target="_blank" rel="noreferrer">
-                <img src="/image/github.png" />
+                <img className={styles.github} src="/image/github.png" />
               </a>
             </div>
           </div>
