@@ -28,6 +28,7 @@ const Footer = () => {
             <div className={styles.logoWrapper}>
               <img src="/image/logo.png" className={styles.logo} />
             </div>
+            <div className={styles.divaddress}></div>
             <div className={styles.address}>
               393 Broadway
               <br />

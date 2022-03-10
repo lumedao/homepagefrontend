@@ -20,7 +20,7 @@
 
   .address {
     font-size: 16px !important;
-    line-height: 20px !important;
+    line-height: 24px !important;
   }
 
   .links {
@@ -34,7 +34,15 @@
   }
 
   .centerImage {
-    height: calc(100% - 2rem) !important;
+    height: calc(100% - 100rem) !important;
+  }
+
+  .divaddress{
+    padding-top: 30px;
+  }
+
+  .logoWrapper .logo {
+    height: 50px;
   }
 }
 
@@ -87,6 +95,7 @@
 
 .addressWrapper {
   display: flex;
+  white-space: nowrap;
   flex-direction: column;
   justify-content: space-between;
 }
